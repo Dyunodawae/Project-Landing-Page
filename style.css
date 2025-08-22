@@ -77,3 +77,33 @@ ul {
 } 
 
 /* /container */
+
+/* Information */
+
+.information {
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+
+}
+
+.intel {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 36px;
+}
+
+.info img {
+  width: 200px;
+  height: 200px;
+}
+
+/* /Information */
