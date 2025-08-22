@@ -82,6 +82,7 @@ ul {
 
 .information {
   text-align: center;
+  margin-bottom: 36px;
 }
 
 .info-container {
@@ -92,7 +93,6 @@ ul {
 
 .info {
   max-width: 200px;
-
 }
 
 .intel {
@@ -107,3 +107,32 @@ ul {
 }
 
 /* /Information */
+
+/* quote section */
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  font: lighter;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937;
+  justify-content: end;
+  text-align: end;
+  width: 600px;
+}
+
+/* /quote section */
